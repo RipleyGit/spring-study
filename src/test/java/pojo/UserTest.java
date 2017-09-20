@@ -37,4 +37,16 @@ public class UserTest {
         System.out.println(user);
 
     }
+    //类的注解
+    @Test
+    public void testAnno(){
+
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext-v1.4.xml");
+
+        User user = (User) context.getBean("user");
+        //Dog dog = (Dog) context.getBean("dog");
+        System.out.println(user);
+
+    }
 }
