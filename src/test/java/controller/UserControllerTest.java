@@ -10,7 +10,7 @@ public class UserControllerTest {
     public void testBean(){
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext-v1.0.xml");
         UserController userController = (UserController) context.getBean("user");
-        userController.hello();
+        //userController.hello();
     }
     //测试对象的单例和多例
     @Test
@@ -40,6 +40,16 @@ public class UserControllerTest {
         UserController user = (UserController) context.getBean("user");
         //表示懒加载生效
         System.out.println(user);
+
+    }
+    @Test
+    public void testAutowired(){
+
+        ClassPathXmlApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext-v1.6.xml");
+        UserController userController = (UserController) context.getBean("userController");
+
+        userController.addUser();
 
     }
 
