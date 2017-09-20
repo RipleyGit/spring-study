@@ -26,4 +26,15 @@ public class UserTest {
         System.out.println(user);
 
     }
+    //测试autowire注入
+    @Test
+    public void testAutowire(){
+
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext-v1.3.xml");
+
+        User user = (User) context.getBean("user");
+        System.out.println(user);
+
+    }
 }
