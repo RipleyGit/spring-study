@@ -6,8 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Calendar;
 
-import static org.junit.Assert.*;
-
 public class SpringFactoryTest {
     //测试spring工厂
     @Test
@@ -15,7 +13,7 @@ public class SpringFactoryTest {
 
         //启动Spring容器
         ApplicationContext context =
-                new ClassPathXmlApplicationContext("applicationContext.xml");
+                new ClassPathXmlApplicationContext("applicationContext-v1.0.xml");
 
         Calendar calendar = (Calendar) context.getBean("calendar3");
         System.out.println(calendar.getTime());

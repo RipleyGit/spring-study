@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--最基本的spring头文件约束 主要作用是使下面的标签被spring框架标识和标签快捷补全-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="false">
+    <!--表示全局懒加载  -->
+    <!--
+		lazy-init="default"  向全局配置看齐
+		lazy-init="false"    懒加载不生效
+		lazy-init="true"     懒加载生效
+
+		说明：如果自己没有定义懒加载则都使用默认的配置  懒加载不生效
+		如果配置了全局变量，向全局变量看齐
+		如果自己指定了懒加载，以自己定义的为准
+	  -->
+    <bean id="user" class="controller.UserController" />
+
+</beans>
