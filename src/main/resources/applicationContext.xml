@@ -12,7 +12,11 @@
 		尽量使用时自动提示功能，避免输入错误
 		class的配置其实就是反射
 	  -->
-    <bean id="user" class="controller.UserController" />
+    <!--
+		scope="singleton" 如果配置为singleton为单例对象,对象只存一个
+		scope="prototype" 表示多例对象
+	  -->
+    <bean id="user" class="controller.UserController"  scope="singleton"/>
     <!--通过静态工厂创建对象
 		id="标示符"
 		class="工厂的类型"
@@ -26,10 +30,11 @@
         factory-bean:工厂bean的Id
         factory-method:工厂方法
       -->
+    <!--
     <bean id="newFactory" class="factory.NewInstanceFactory"/>
 
     <bean id="calendar2" factory-bean="newFactory" factory-method="getCalendar"/>
-
+    -->
 
     <!--spring工厂  -->
     <bean id="calendar3" class="factory.SpringFactory"/>
