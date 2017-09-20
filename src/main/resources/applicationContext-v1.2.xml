@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+	
+	<!--构造方法注入  -->
+	<bean id="user" class="pojo.User">
+		<!--代表一个参数  
+			index="0" 参数的下标 
+			name=""   参数名称
+			 
+			ref="" 	  对象的引用
+			value="" 属性的值
+			
+			//type="Java.lang.String"  数据类型
+		-->
+		<constructor-arg index="0"  value="1"/>
+		<constructor-arg index="1" value="王者荣耀"/>
+		<constructor-arg index="2" name="dog" ref="dog"/>
+	</bean>
+	
+	<!--默认配置是拦截  可是别人不让我懒加载  -->
+	<bean id="dog" class="pojo.Dog" lazy-init="true"></bean>
+	
+	
+	
+</beans>

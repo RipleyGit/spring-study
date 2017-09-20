@@ -78,9 +78,14 @@ public class User {
 				+ name + ", list=" + list + ", set=" + set + ", map=" + map
 				+ ", pro=" + pro + "]";
 	}
-	
-	
-	
+
+	//3个参数构造
+	public User(Integer id, String arg0, Dog dog) {
+		super();
+		this.id = id;
+		this.name = arg0;
+		this.dog = dog;
+	}
 	
 	
 	
