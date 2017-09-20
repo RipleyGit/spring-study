@@ -49,4 +49,18 @@ public class UserTest {
         System.out.println(user);
 
     }
+    //对象的生命周期
+    @Test
+    public void testInit(){
+
+        ClassPathXmlApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext-v1.5.xml");
+
+        User user = (User) context.getBean("tom");
+        user.work(); //真实的任务
+
+        //关系spring容器
+        context.close();
+
+    }
 }
