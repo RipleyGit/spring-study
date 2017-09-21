@@ -15,5 +15,9 @@ public class UserServiceImpl implements UserService {
 		
 		userDao.addUser();
 	}
+	public void addThrow(){
+		System.out.println("the will happen exception!");
+		int i = 1/0;
+	}
 
 }
