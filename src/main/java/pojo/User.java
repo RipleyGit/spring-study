@@ -15,37 +15,32 @@ import javax.annotation.PreDestroy;
 */
 
 //需求：要求为对象指定ID     user--tom   bean id=tom
+
 public class User {
+	private int id;
+	private String name;
 
-	public User(){
-		System.out.println("1.通过无参构造创建对象");
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	@PostConstruct  //构造方法之后执行
-	public void init(){
-		//有时需要在创建对象之后为对象添加操作  流、线程、数据源等
-		System.out.println("2.对象的初始化操作");
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public void work(){
-		System.out.println("3.对象调用方法执行");
+	public int getId() {
+		return id;
 	}
 
-	//在容器销毁之前执行
-	@PreDestroy
-	public void destroy(){
-
-		System.out.println("4.对象的销毁操作");
+	public String getName() {
+		return name;
 	}
 
-
-
-
-
-
-
-
-
-
-
+	@Override
+	public String toString() {
+		return "User{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				'}';
+	}
 }
