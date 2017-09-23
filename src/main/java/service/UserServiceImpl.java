@@ -7,7 +7,7 @@ import dao.UserDao;
 
 @Service
 public class UserServiceImpl implements UserService {
-	
+	@Autowired
 	private UserDao userDao;
 
 
@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 	}
 	public void addThrow(){
 		System.out.println("the will happen exception!");
-//		int i = 1/0;//制造人工异常
+		int i = 1/0;//制造人工异常
 	}
 
 	public String adviceStu() {
