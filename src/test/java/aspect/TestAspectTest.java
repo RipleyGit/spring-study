@@ -31,4 +31,10 @@ public class TestAspectTest {
         userController.addThrow();
 
     }
+    @Test
+    public void testAfterReturn(){
+        UserController userController = (UserController) context.getBean("userController");
+        String msg = userController.afterReturn();
+        System.out.println(msg);
+    }
 }

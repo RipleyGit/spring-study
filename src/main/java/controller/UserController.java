@@ -18,4 +18,7 @@ public class UserController {
     public void addThrow() {
         userService.addThrow();
     }
+    public String afterReturn(){
+        return userService.adviceStu();
+    }
 }
