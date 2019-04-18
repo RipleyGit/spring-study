@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.chainof.micro</groupId>
-	<artifactId>eureka-hystrix</artifactId>
+	<artifactId>eureka-client-hytrix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>eureka-hystrix</name>
+	<name>eureka-client-hytrix</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

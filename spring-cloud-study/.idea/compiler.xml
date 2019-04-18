@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-hytrix" />
         <module name="eureka-server" />
         <module name="client-sentry-two" />
         <module name="eureka-hystrix" />
@@ -21,6 +22,7 @@
       <module name="client-sentry-two" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-feign" target="1.8" />
+      <module name="eureka-client-hytrix" target="1.8" />
       <module name="eureka-client-ribbon" target="1.8" />
       <module name="eureka-hystrix" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -36,6 +38,7 @@
       <module name="client-sentry-two" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-feign" options="-parameters" />
+      <module name="eureka-client-hytrix" options="-parameters" />
       <module name="eureka-client-ribbon" options="-parameters" />
       <module name="eureka-hystrix" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

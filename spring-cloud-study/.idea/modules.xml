@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" filepath="$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-sentry-two/client-sentry-two.iml" filepath="$PROJECT_DIR$/client-sentry-two/client-sentry-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" filepath="$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" filepath="$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" filepath="$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
