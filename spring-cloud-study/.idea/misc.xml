@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/eureka-client-hytrix/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/client-mutant-one/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-hytrix/pom.xml" />
+        <option value="$PROJECT_DIR$/client-sentry-two/pom.xml" />
+        <option value="$PROJECT_DIR$/client-sentry-one/pom.xml" />
       </list>
     </option>
   </component>

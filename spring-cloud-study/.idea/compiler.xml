@@ -7,22 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="client-sentry-two" />
         <module name="eureka-hystrix" />
         <module name="client-mutant-one" />
         <module name="eureka-client-feign" />
-        <module name="eureka-client-ribbon" />
-      </profile>
-      <profile name="Annotation profile for eureka-client-two" enabled="true">
-        <sourceOutputDir name="../eureka-client-two/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../eureka-client-two/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="client-sentry-two" />
-      </profile>
-      <profile name="Annotation profile for eureka-client-one" enabled="true">
-        <sourceOutputDir name="../eureka-client-one/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../eureka-client-one/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="client-sentry-one" />
+        <module name="eureka-client-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
