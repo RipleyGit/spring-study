@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client-mutant-one/client-mutant-one.iml" filepath="$PROJECT_DIR$/client-mutant-one/client-mutant-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" filepath="$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-sentry-two/client-sentry-two.iml" filepath="$PROJECT_DIR$/client-sentry-two/client-sentry-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" filepath="$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" filepath="$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-study.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-study.iml" />
+    </modules>
+  </component>
+</project>

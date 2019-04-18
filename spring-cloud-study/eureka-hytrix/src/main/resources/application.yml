@@ -1,0 +1,30 @@
+server:
+  port: 9020
+eureka:
+  client:
+    registerWithEureka: true #客户端功能
+    fetchRegistry: true #客户端配置
+    serviceUrl.defaultZone: http://localhost:8761/eureka/  #定义服务发访问地址
+spring:
+  application:
+    name: client-hystrix
+
+# 对所有的feignclient生效
+ribbon.ReadTimeout: 1000
+ribbon.ConnectTimeout: 2000
+
+feign.client.config.default.connect-timeout: 3000
+feign.client.config.default.read-timeout: 20000
+
+#hystrix 开启
+feign.hystrix.enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

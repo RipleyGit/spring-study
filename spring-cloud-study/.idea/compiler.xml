@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="eureka-hystrix" />
+        <module name="client-mutant-one" />
+        <module name="eureka-client-feign" />
+        <module name="eureka-client-ribbon" />
+      </profile>
+      <profile name="Annotation profile for eureka-client-two" enabled="true">
+        <sourceOutputDir name="../eureka-client-two/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../eureka-client-two/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-sentry-two" />
+      </profile>
+      <profile name="Annotation profile for eureka-client-one" enabled="true">
+        <sourceOutputDir name="../eureka-client-one/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../eureka-client-one/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-sentry-one" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-mutant-one" target="1.8" />
+      <module name="client-sentry-one" target="1.8" />
+      <module name="client-sentry-two" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client-feign" target="1.8" />
+      <module name="eureka-client-ribbon" target="1.8" />
+      <module name="eureka-hystrix" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="msa-compass-eureka-server" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="spring-hystrix" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-mutant-one" options="-parameters" />
+      <module name="client-sentry-one" options="-parameters" />
+      <module name="client-sentry-two" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-client-feign" options="-parameters" />
+      <module name="eureka-client-ribbon" options="-parameters" />
+      <module name="eureka-hystrix" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="msa-compass-eureka-server" options="-parameters" />
+      <module name="spring-cloud-parent" options="-parameters" />
+      <module name="spring-hystrix" options="-parameters" />
+    </option>
+  </component>
+</project>

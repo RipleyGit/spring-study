@@ -1,0 +1,25 @@
+server:
+  port: 9030
+eureka:
+  client:
+    registerWithEureka: true #客户端功能
+    fetchRegistry: true #客户端配置
+    serviceUrl.defaultZone: http://localhost:8761/eureka/  #定义服务发访问地址
+spring:
+  application:
+    name: client-ribbon
+
+#ribbon设置
+ribbon:
+  # Max number of retries on the same server (excluding the first try)
+  MaxAutoRetries: 0
+  # Max number of next servers to retry (excluding the first server)
+  MaxAutoRetriesNextServer: 3
+  # Whether all operations can be retried for this client
+  OkToRetryOnAllOperations: false
+  # Interval to refresh the server list from the source
+  ServerListRefreshInterval: 2000
+  # Connect timeout used by Apache HttpClient
+  ConnectTimeout: 2000
+  # Read timeout used by Apache HttpClient
+  ReadTimeout: 1000
