@@ -25,16 +25,20 @@ public class ClientSentryFeignPoxy {
 
     @HystrixCollapser(batchMethod = "findAnAll",
             collapserProperties = {@HystrixProperty(name ="timerDelayInMilliseconds",value = "1000")})
-    public Future<User> findAn(Long id) {
-        User user = clientSentryFeign.singleUser(String.valueOf(id));
+    public Future<User> findAn(String id) {
+        User user = clientSentryFeign.singleUser(id);
         return new AsyncResult<>(user);
     }
 
     @HystrixCommand
-    public List<User> findAnAll(List<Long> ids) {
+    public List<User> findAnAll(List<String> ids) {
         System.out.println("finaAnAll request:---------" + ids + "Thread.currentThread().getName():-------" + Thread.currentThread().getName());
-        List<User> list = clientSentryFeign.batchUser(StringUtils.join(ids, ","));
+        List<User> list = clientSentryFeign.batchUser(ids);
         return list;
     }
 
+    public User getById(String id) {
+        System.out.println("request:---------" + id + "Thread.currentThread().getName():-------" + Thread.currentThread().getName());
+        return clientSentryFeign.singleUser(id);
+    }
 }

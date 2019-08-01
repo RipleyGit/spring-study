@@ -18,7 +18,7 @@ public interface ClientSentryFeign {
     String testCache(@RequestParam String str);
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
-    List<User> batchUser(@RequestParam(value = "ids")String ids);
+    List<User> batchUser(@RequestParam(value = "ids")List<String> ids);
 
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
     User singleUser(@PathVariable("id") String id);
