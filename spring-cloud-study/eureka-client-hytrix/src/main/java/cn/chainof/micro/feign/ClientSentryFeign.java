@@ -8,4 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ClientSentryFeign {
     @RequestMapping("/timeOut")
     String timeOut(@RequestParam int mills);
+
+    @RequestMapping("/testCache")
+    String testCache(@RequestParam String str);
 }

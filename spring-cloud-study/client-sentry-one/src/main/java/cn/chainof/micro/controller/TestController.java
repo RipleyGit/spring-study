@@ -1,6 +1,6 @@
 package cn.chainof.micro.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import cn.chainof.micro.model.Customer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +14,6 @@ public class TestController {
     private static String name ="client-sentry-one";
 
     private static int i=0;
-
     /**
      * 测试重试时间
      *
@@ -33,5 +32,13 @@ public class TestController {
         String format = String.format("延时%sms,%s返回请求",mills, name);
         System.out.println(format);
         return format;
+    }
+
+    @RequestMapping("/testCache")
+    public String testCache(@RequestParam String str){
+        System.out.println(str +"进入");
+        Customer customer = new Customer();
+
+        return str;
     }
 }
