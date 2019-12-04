@@ -6,24 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client-sentry-two" />
-        <module name="eureka-server" />
-        <module name="eureka-client-hytrix" />
+        <module name="spring-cache" />
         <module name="eureka-hystrix" />
-        <module name="client-mutant-one" />
-        <module name="eureka-client-hytrix-collapser" />
-        <module name="eureka-client-feign" />
-        <module name="hystrix-example" />
-        <module name="eureka-server (1) (org.hope)" />
-        <module name="eureka-server-service" />
+        <module name="eureka-server" />
         <module name="client-sentry-one" />
-        <module name="eureka-client-ribbon" />
-        <module name="ribbon-hystrix" />
+        <module name="eureka-client-hytrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client-mutant-one" target="1.8" />
       <module name="client-sentry-one" target="1.8" />
+      <module name="client-sentry-one (1)" target="1.8" />
       <module name="client-sentry-two" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-feign" target="1.8" />
@@ -34,10 +27,12 @@
       <module name="eureka-hystrix" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server (1) (org.hope)" target="1.8" />
+      <module name="eureka-server (2) (cn.chainof.micro)" target="1.8" />
       <module name="eureka-server-service" target="1.8" />
       <module name="hystrix-example" target="1.8" />
       <module name="msa-compass-eureka-server" target="1.8" />
       <module name="ribbon-hystrix" target="1.8" />
+      <module name="spring-cache" target="1.8" />
       <module name="spring-cloud-parent" target="1.8" />
       <module name="spring-hystrix" target="1.8" />
     </bytecodeTargetLevel>
@@ -46,6 +41,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client-mutant-one" options="-parameters" />
       <module name="client-sentry-one" options="-parameters" />
+      <module name="client-sentry-one (1)" options="-parameters" />
       <module name="client-sentry-two" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-feign" options="-parameters" />
@@ -55,9 +51,11 @@
       <module name="eureka-client-ribbon" options="-parameters" />
       <module name="eureka-hystrix" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server (2) (cn.chainof.micro)" options="-parameters" />
       <module name="eureka-server-service" options="-parameters" />
       <module name="msa-compass-eureka-server" options="-parameters" />
       <module name="ribbon-hystrix" options="-parameters" />
+      <module name="spring-cache" options="-parameters" />
       <module name="spring-cloud-parent" options="-parameters" />
       <module name="spring-hystrix" options="-parameters" />
     </option>

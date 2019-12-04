@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/eureka-client-hytrix-collapser" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cache" charset="UTF-8" />
   </component>
 </project>

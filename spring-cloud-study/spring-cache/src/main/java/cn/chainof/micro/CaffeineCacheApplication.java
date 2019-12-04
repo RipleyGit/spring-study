@@ -1,20 +1,18 @@
 package cn.chainof.micro;
 
-import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableHystrix
+@EnableCaching
 @SpringBootApplication
-@EnableDiscoveryClient
 @EnableFeignClients
-public class ClientHystrixApplication {
+@EnableDiscoveryClient
+public class CaffeineCacheApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientHystrixApplication.class, args);
-		HystrixRequestContext.initializeContext();
+		SpringApplication.run(CaffeineCacheApplication.class, args);
 	}
 }
