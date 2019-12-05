@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" filepath="$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cache/hazelcast-simple-1/hazelcast-simple-1.iml" filepath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/hazelcast-simple-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cache/hazelcast-simple-2/hazelcast-simple-2.iml" filepath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/hazelcast-simple-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cache/spring-cache.iml" filepath="$PROJECT_DIR$/spring-cache/spring-cache.iml" />
     </modules>
   </component>

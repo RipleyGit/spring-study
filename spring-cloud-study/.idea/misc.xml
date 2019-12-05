@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/client-sentry-one/pom.xml" />
         <option value="$PROJECT_DIR$/spring-caffeine-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/pom.xml" />
       </list>
     </option>
   </component>

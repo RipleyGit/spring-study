@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cache" />
-        <module name="eureka-hystrix" />
         <module name="eureka-server" />
-        <module name="client-sentry-one" />
         <module name="eureka-client-hytrix" />
+        <module name="eureka-hystrix" />
+        <module name="hazelcast-simple-2" />
+        <module name="hazelcast-simple-1" />
+        <module name="client-sentry-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,8 @@
       <module name="eureka-server (1) (org.hope)" target="1.8" />
       <module name="eureka-server (2) (cn.chainof.micro)" target="1.8" />
       <module name="eureka-server-service" target="1.8" />
+      <module name="hazelcast-simple-1" target="1.8" />
+      <module name="hazelcast-simple-2" target="1.8" />
       <module name="hystrix-example" target="1.8" />
       <module name="msa-compass-eureka-server" target="1.8" />
       <module name="ribbon-hystrix" target="1.8" />
@@ -53,6 +56,8 @@
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server (2) (cn.chainof.micro)" options="-parameters" />
       <module name="eureka-server-service" options="-parameters" />
+      <module name="hazelcast-simple-1" options="-parameters" />
+      <module name="hazelcast-simple-2" options="-parameters" />
       <module name="msa-compass-eureka-server" options="-parameters" />
       <module name="ribbon-hystrix" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
