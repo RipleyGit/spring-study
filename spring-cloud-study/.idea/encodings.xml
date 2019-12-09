@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/../../Hystrix-learn/hystrix-request-collapsing/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../Hystrix-learn/hystrix-request-collapsing/eureka-server-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../Hystrix-learn/hystrix-request-collapsing/ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-mutant-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-sentry-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-sentry-two" charset="UTF-8" />

@@ -9,6 +9,8 @@
         <module name="eureka-server" />
         <module name="eureka-client-hytrix" />
         <module name="eureka-hystrix" />
+        <module name="hazelcast-simple-2" />
+        <module name="hazelcast-simple-1" />
         <module name="client-sentry-one" />
       </profile>
     </annotationProcessing>

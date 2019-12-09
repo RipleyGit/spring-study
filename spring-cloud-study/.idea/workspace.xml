@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6230889-5289-47f3-b2fe-fac99442e2ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/anno/HazelcastCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/conf/CacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/conf/HazelcastCacheAop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/service/DisCacheService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/Simple2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/anno/HazelcastCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/conf/CacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/conf/HazelcastCacheAop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/service/DisCacheService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cache/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-hystrix/target/" />
@@ -47,6 +37,8 @@
     <ignored path="$PROJECT_DIR$/spring-cache/hazelcast1/target/" />
     <ignored path="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/target/" />
     <ignored path="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/target/" />
+    <ignored path="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/target/" />
+    <ignored path="$PROJECT_DIR$/../spring-cache/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +64,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client-sentry-one/src/test/java/cn/chainof/micro/MsaCompassEurekaClientApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/conf/HazelcastCacheAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-333">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring-cache/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-122">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -129,10 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client-sentry-one/src/main/java/cn/chainof/micro/model/Custom.java" />
-        <option value="$PROJECT_DIR$/client-sentry-one/src/main/java/cn/chainof/micro/model/Customer.java" />
-        <option value="$PROJECT_DIR$/eureka-client-hytrix-collapser/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-client-hytrix-collapser/src/main/java/cn/chainof/micro/ClientHystrixApplication.java" />
         <option value="$PROJECT_DIR$/client-sentry-one/src/main/java/cn/chainof/micro/model/User.java" />
         <option value="$PROJECT_DIR$/eureka-client-hytrix-collapser/src/main/java/cn/chainof/micro/User.java" />
         <option value="$PROJECT_DIR$/eureka-client-hytrix-collapser/src/main/java/cn/chainof/micro/model/User.java" />
@@ -180,6 +218,10 @@
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/src/main/java/cn/chainof/micro/Simple2.java" />
+        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java" />
+        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/conf/HazelcastCacheAop.java" />
       </list>
     </option>
   </component>
@@ -221,7 +263,75 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="micro" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="hazelcast-simple-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -676,7 +786,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104929000" />
+    <option name="totallyTimeSpent" value="106267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +800,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
       <window_info id="Structure" order="1" weight="0.24973376" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -702,15 +812,15 @@
       <window_info id="Alibaba Cloud Explorer" order="9" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.4857497" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.4857497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24783148" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.37284702" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.7213779" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.36431226" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.30855018" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.30800405" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3283767" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
@@ -936,27 +1046,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client-sentry-one/src/main/java/cn/chainof/micro/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-hytrix/src/main/java/cn/chainof/micro/feign/ClientSentryFeignPoxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/cn/chainof/micro/config/LoadingCacheConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/cn/chainof/micro/config/CacheResolverConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/cn/chainof/micro/config/CacheLoaderConfig.java" />
     <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/cn/chainof/micro/config/CacheManagerConfig.java" />
     <entry file="file://$PROJECT_DIR$/spring-cache/src/main/java/cn/chainof/micro/controller/CaffeineController.java" />
     <entry file="file://$PROJECT_DIR$/eureka-client-hytrix/pom.xml">
@@ -1222,6 +1311,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cache/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/Simple1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/src/main/java/cn/chainof/micro/conf/HazelcastCacheAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1274,7 +1403,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hazelcast-simple-2</last-edited>
+          <last-edited>spring-cache</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
