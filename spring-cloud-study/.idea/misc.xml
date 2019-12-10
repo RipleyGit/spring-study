@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/pom.xml" />
+        <option value="$PROJECT_DIR$/native-config/config/pom.xml" />
+        <option value="$PROJECT_DIR$/native-config/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
       </list>
     </option>
   </component>

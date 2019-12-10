@@ -3,12 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" filepath="$PROJECT_DIR$/client-sentry-one/client-sentry-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config/config-client/config-client.iml" filepath="$PROJECT_DIR$/springcloud-config/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" filepath="$PROJECT_DIR$/eureka-client-hytrix/eureka-client-hytrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hytrix/eureka-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/hazelcast-simple-1.iml" filepath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/hazelcast-simple-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/hazelcast-simple-2.iml" filepath="$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/hazelcast-simple-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config/native-config-server/native-config-server.iml" filepath="$PROJECT_DIR$/springcloud-config/native-config-server/native-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-cache/spring-cache.iml" filepath="$PROJECT_DIR$/../spring-cache/spring-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config/springcloud-config.iml" filepath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" />
     </modules>
   </component>
 </project>

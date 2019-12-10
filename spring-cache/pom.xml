@@ -8,6 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>hazelcast-simple-1</module>
+        <module>hazelcast-simple-2</module>
     </modules>
     <packaging>pom</packaging>
 

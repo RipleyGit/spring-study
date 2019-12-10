@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="eureka-client-hytrix" />
+        <module name="config-client" />
         <module name="eureka-hystrix" />
         <module name="hazelcast-simple-2" />
         <module name="hazelcast-simple-1" />
+        <module name="native-config-server" />
         <module name="client-sentry-one" />
       </profile>
     </annotationProcessing>
@@ -19,6 +21,8 @@
       <module name="client-sentry-one" target="1.8" />
       <module name="client-sentry-one (1)" target="1.8" />
       <module name="client-sentry-two" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-feign" target="1.8" />
       <module name="eureka-client-hytrix" target="1.8" />
@@ -34,10 +38,12 @@
       <module name="hazelcast-simple-2" target="1.8" />
       <module name="hystrix-example" target="1.8" />
       <module name="msa-compass-eureka-server" target="1.8" />
+      <module name="native-config-server" target="1.8" />
       <module name="ribbon-hystrix" target="1.8" />
       <module name="spring-cache" target="1.8" />
       <module name="spring-cloud-parent" target="1.8" />
       <module name="spring-hystrix" target="1.8" />
+      <module name="springcloud-config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
