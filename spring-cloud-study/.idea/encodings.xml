@@ -16,12 +16,8 @@
     <file url="file://$PROJECT_DIR$/eureka-client-hytrix-collapser" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/native-config/config-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/native-config/config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cache" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cache/hazelcast-simple-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cache/hazelcast-simple-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config/config-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config/config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config/native-config-server" charset="UTF-8" />
   </component>

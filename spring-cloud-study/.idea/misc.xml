@@ -6,19 +6,23 @@
         <option value="$PROJECT_DIR$/eureka-client-one/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-two/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-hytrix/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client-hytrix/pom.xml" />
-        <option value="$PROJECT_DIR$/client-sentry-one/pom.xml" />
         <option value="$PROJECT_DIR$/spring-caffeine-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/hazelcast-simple-2/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/pom.xml" />
         <option value="$PROJECT_DIR$/native-config/config/pom.xml" />
         <option value="$PROJECT_DIR$/native-config/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cache/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

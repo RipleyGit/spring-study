@@ -6,14 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="eureka-client-hytrix" />
-        <module name="config-client" />
         <module name="eureka-hystrix" />
-        <module name="hazelcast-simple-2" />
-        <module name="hazelcast-simple-1" />
+        <module name="eureka-server" />
+        <module name="config-client" />
         <module name="native-config-server" />
-        <module name="client-sentry-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +17,7 @@
       <module name="client-sentry-one" target="1.8" />
       <module name="client-sentry-one (1)" target="1.8" />
       <module name="client-sentry-two" target="1.8" />
+      <module name="config-bus" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
@@ -52,6 +49,7 @@
       <module name="client-sentry-one" options="-parameters" />
       <module name="client-sentry-one (1)" options="-parameters" />
       <module name="client-sentry-two" options="-parameters" />
+      <module name="config-bus" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-feign" options="-parameters" />
       <module name="eureka-client-hytrix" options="-parameters" />
