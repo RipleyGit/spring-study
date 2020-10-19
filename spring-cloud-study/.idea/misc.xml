@@ -14,16 +14,34 @@
         <option value="$PROJECT_DIR$/native-config/config/pom.xml" />
         <option value="$PROJECT_DIR$/native-config/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/pom.xml" />
+        <option value="$PROJECT_DIR$/mult-source-mysql-phoenix/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/address/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/api/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/client/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/cmdb/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/common/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/config/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/console/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/core/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/example/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/istio/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/naming/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/pom.xml" />
+        <option value="$PROJECT_DIR$/../../open/alibaba/nacos-develop/test/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-1/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/hazelcast-simple-2/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/native-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

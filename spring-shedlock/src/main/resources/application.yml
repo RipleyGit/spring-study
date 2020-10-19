@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: swagger
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://10.100.1.16:4306/dom?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver

@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-hystrix" />
-        <module name="eureka-server" />
+        <module name="nacos-config-server" />
         <module name="config-client" />
         <module name="native-config-server" />
       </profile>
@@ -35,9 +35,27 @@
       <module name="hazelcast-simple-2" target="1.8" />
       <module name="hystrix-example" target="1.8" />
       <module name="msa-compass-eureka-server" target="1.8" />
+      <module name="nacos-address" target="1.8" />
+      <module name="nacos-all" target="1.8" />
+      <module name="nacos-api" target="6" />
+      <module name="nacos-client" target="6" />
+      <module name="nacos-client (1) (cn.chainof.micro)" target="1.8" />
+      <module name="nacos-client (2) (cn.chainof.micro)" target="1.8" />
+      <module name="nacos-cmdb" target="1.7" />
+      <module name="nacos-common" target="6" />
+      <module name="nacos-config" target="1.8" />
+      <module name="nacos-config-server" target="1.8" />
+      <module name="nacos-console" target="1.8" />
+      <module name="nacos-core" target="8" />
+      <module name="nacos-distribution" target="1.8" />
+      <module name="nacos-example" target="1.8" />
+      <module name="nacos-istio" target="1.8" />
+      <module name="nacos-naming" target="1.8" />
+      <module name="nacos-test" target="1.8" />
       <module name="native-config-server" target="1.8" />
       <module name="ribbon-hystrix" target="1.8" />
       <module name="spring-cache" target="1.8" />
+      <module name="spring-cloud-alibaba-nacos-config-server" target="1.8" />
       <module name="spring-cloud-parent" target="1.8" />
       <module name="spring-hystrix" target="1.8" />
       <module name="springcloud-config" target="1.8" />
@@ -49,6 +67,7 @@
       <module name="client-sentry-one" options="-parameters" />
       <module name="client-sentry-one (1)" options="-parameters" />
       <module name="client-sentry-two" options="-parameters" />
+      <module name="client-sentry-two (1)" options="-parameters" />
       <module name="config-bus" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-feign" options="-parameters" />
@@ -63,8 +82,10 @@
       <module name="hazelcast-simple-1" options="-parameters" />
       <module name="hazelcast-simple-2" options="-parameters" />
       <module name="msa-compass-eureka-server" options="-parameters" />
+      <module name="mult-source-mysql-phoenix" options="-parameters" />
       <module name="ribbon-hystrix" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
+      <module name="spring-cloud-alibaba-nacos-config-server" options="-parameters -parameters" />
       <module name="spring-cloud-parent" options="-parameters" />
       <module name="spring-hystrix" options="-parameters" />
     </option>
